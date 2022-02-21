@@ -1,6 +1,9 @@
-test !
+---
 
-asdasf
+- hosts: all 
+  gather_facts: false
 
-aaa
-aaa
+  tasks:
+  - ping:
+
+  - debug: msg="hello! test project!"
