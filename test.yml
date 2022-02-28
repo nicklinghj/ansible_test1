@@ -3,7 +3,7 @@
 - hosts: all 
   gather_facts: false
   vars_files: 
-    main.yml
+    ./vars/main.yml
 
   tasks:
   - ping:
