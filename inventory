@@ -1,1 +1,2 @@
-testbox_a ansible_user=nling
+[testbox_a]
+192.168.13.211 ansible_user=nling
