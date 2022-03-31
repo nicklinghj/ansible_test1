@@ -10,3 +10,7 @@
 
   - debug: msg="hello! ---> test project!"
   - debug: msg="{{test_var}}"
+
+  - name: DISPLAY THE INJECTED EXTRA VAR
+    debug:
+      var: secret_key
