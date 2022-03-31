@@ -8,5 +8,5 @@
   tasks:
   - ping:
 
-  - debug: msg="hello! test project!"
+  - debug: msg="hello! ---> test project!"
   - debug: msg="{{test_var}}"
