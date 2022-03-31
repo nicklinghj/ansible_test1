@@ -10,7 +10,6 @@
 
   - debug: msg="hello! ---> test project!"
   - debug: msg="{{test_var}}"
-ok
 
   - name: DISPLAY THE INJECTED EXTRA VAR
     debug:
